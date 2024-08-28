@@ -1,0 +1,17 @@
+{
+  "name": "@app/client2",
+  "version": "1.0.0",
+  "main": "src/main.ts",
+  "dependencies": {
+    "@demo/client": "workspace:*",
+    "vue": "^3.4.37"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview"
+  },
+  "devDependencies": {
+    "vite": "^5.4.1"
+  }
+}
